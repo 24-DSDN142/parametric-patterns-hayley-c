@@ -10,23 +10,30 @@ Your final settings.txt will look something like this when you are finished:
 Wallpaper 1:
 
 //your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+
+let background_colour = "rgb(227, 225, 232)"; 
+let snowy = false; 
+let snow_colour = "rgb(255)"; 
+let snow_size = 7; 
+let weight = 3; 
+let y = -42 ; 
+let ratio = 5; 
+let num_arms = 8; 
+let multicolour_snowflake = true; 
+let top_branch_colour = "rgb(109, 87, 232)"; 
+let middle_branch_colour = "rgb(146, 131, 232)"; 
+let bottom_branch_colour = "rgb(173, 162, 232)"; 
+let base_colour = "rgb(75, 46, 232)"; 
 
 function setup_wallpaper(pWallpaper) {
-  pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 100;
 }
 
 /////////////////////////////////
@@ -34,21 +41,244 @@ function setup_wallpaper(pWallpaper) {
 Wallpaper 2:
 
 //your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+
+let background_colour = "rgb(10, 6, 94)"; 
+let snowy = true; 
+let snow_colour = "rgb(136, 134, 158)"; 
+let snow_size = 6; 
+let weight = 7; 
+let y = -95 ;
+let ratio = 7;
+let num_arms = 6; 
+let multicolour_snowflake = false; 
+let top_branch_colour = "rgb(0)"; 
+let middle_branch_colour = "rgb(0)"; 
+let bottom_branch_colour = "rgb(0)"; 
+let base_colour = "rgb(255)"; 
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
-  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.resolution(NINE_PORTRAIT);
   pWallpaper.show_guide(false); //set this to false when you're ready to print
 
   //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 100;
 }
+
+Wallpaper 3:
+
+//your parameter variables go here!
+
+let background_colour = "rgb(217, 240, 255)"; 
+let snowy = true; 
+let snow_colour = "rgb(255)"; 
+let snow_size = 12; 
+let weight = 3; 
+let y = -30 ; 
+let ratio = 4; 
+let num_arms = 5;
+let multicolour_snowflake = false;
+let top_branch_colour = "rgb(0)"; 
+let middle_branch_colour = "rgb(0)"; 
+let bottom_branch_colour = "rgb(0)"; 
+let base_colour = "rgb(60, 129, 222)"; 
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 100;
+}
+
+/////////////////////////////////
+
+Wallpaper 4:
+
+//your parameter variables go here!
+
+let background_colour = "rgb(235, 245, 244)"; 
+let snowy = true; 
+let snow_colour = "rgb(255)"; 
+let snow_size = 12; 
+let weight = 5; 
+let y = -90 ; 
+let ratio = 6; 
+let num_arms = 9; 
+let multicolour_snowflake = false; 
+let top_branch_colour = "rgb(0)"; 
+let middle_branch_colour = "rgb(0)";
+let bottom_branch_colour = "rgb(0)"; 
+let base_colour = "rgb(189, 219, 217)";
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 100;
+}
+
+/////////////////////////////////
+
+Wallpaper 5:
+
+//your parameter variables go here!
+
+let background_colour = "rgb(224, 222, 206)"; 
+let snowy = false; 
+let snow_colour = "rgb(255)"; 
+let snow_size = 12; 
+let weight = 3; 
+let y = -45 ; 
+let ratio = 4; 
+let num_arms = 6; 
+let multicolour_snowflake = true; 
+let top_branch_colour = "rgb(255)"; 
+let middle_branch_colour = "rgb(176, 154, 28)"; 
+let bottom_branch_colour = "rgb(255)"; 
+let base_colour = "rgb(176, 154, 28)"; 
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 100;
+}
+
+/////////////////////////////////
+
+Wallpaper 6:
+
+//your parameter variables go here!
+
+let background_colour = "rgb(255)"; 
+let snowy = true; 
+let snow_colour = "rgb(139, 168, 201)"; 
+let snow_size = 4; 
+let weight = 3; 
+let y = -39 ; 
+let ratio = 5;
+let num_arms = 8; 
+let multicolour_snowflake = false; 
+let top_branch_colour = "rgb(255)"; 
+let middle_branch_colour = "rgb(75, 75, 75)"; 
+let bottom_branch_colour = "rgb(255)"; 
+let base_colour = "rgb(0, 75, 161)"; 
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 50;
+}
+
+/////////////////////////////////
+
+Wallpaper 7:
+
+//your parameter variables go here!
+
+let background_colour = "rgb(125, 132, 232)"; 
+let snowy = true;
+let snow_colour = "rgb(255)"; 
+let snow_size = 5; 
+let weight = 3; 
+let y = -35 ; 
+let ratio = 7; 
+let num_arms = 6; 
+let multicolour_snowflake = false; 
+let top_branch_colour = "rgb(255)"; 
+let middle_branch_colour = "rgb(75, 75, 75)"; 
+let bottom_branch_colour = "rgb(255)"; 
+let base_colour = "rgb(209, 210, 232)"; 
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 150;
+}
+
+/////////////////////////////////
+
+Wallpaper 8:
+
+//your parameter variables go here!
+
+let background_colour = "rgb(235, 246, 255)"; 
+let snowy = false; 
+let snow_colour = "rgb(255)"; 
+let snow_size = 5; 
+let weight = 7; 
+let y = -65 ; 
+let ratio = 4; 
+let num_arms = 7; 
+let multicolour_snowflake = true; 
+let top_branch_colour = "rgb(116, 171, 237)"; 
+let middle_branch_colour = "rgb(140, 184, 237)"; 
+let bottom_branch_colour = "rgb(159, 194, 237)"; 
+let base_colour = "rgb(190, 214, 237)"; 
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 75;
+}
+
+
+Wallpaper 9:
+
+//your parameter variables go here!
+
+let background_colour = "rgb(9, 48, 8)"; 
+let snowy = true; 
+let snow_colour = "rgb(255)"; 
+let snow_size = 5; 
+let weight = 2; 
+let y = -45 ; 
+let ratio = 6; 
+let num_arms = 10;
+let multicolour_snowflake = false; 
+let top_branch_colour = "rgb(116, 171, 237)"; 
+let middle_branch_colour = "rgb(140, 184, 237)"; 
+let bottom_branch_colour = "rgb(159, 194, 237)"; 
+let base_colour = "rgb(255)";
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GLIDE_WALLPAPER);
+  pWallpaper.resolution(NINE_PORTRAIT);
+  pWallpaper.show_guide(false); //set this to false when you're ready to print
+
+  //Grid settings
+  pWallpaper.grid_settings.cell_width  = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset  = 100;
+}
+
+/////////////////////////////////
